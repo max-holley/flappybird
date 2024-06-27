@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    max-height: 100dvh;
     overflow: hidden;
 }
 .game-container {

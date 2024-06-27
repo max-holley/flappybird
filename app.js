@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             if(
                 obstacleLeft > 180 && obstacleLeft < 280 && birdLeft === 230 && 
-                (birdBottom < obstacleBottom + 100 || birdBottom > obstacleBottom + gap - 255) ||
+                (birdBottom < obstacleBottom + 100 || birdBottom > obstacleBottom + gap - 249) ||
                 birdBottom === 0
             ) {
                 clearInterval(timerId)
